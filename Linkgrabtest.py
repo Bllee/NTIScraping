@@ -26,22 +26,6 @@ for item in ntilinks:
             f.write("\n")
     z +=1 
 
-'''
-        filename = "year" +str(z) +".txt"
-        with open(filename, "a") as f:
-            f.write("http://nti.org")
-            f.write(link.get('href'))
-            f.write("\n")
-            z +=1'''
-            
-#data= links.find(href=re.compile("articles"))
 
-
-'''for link in data:
-    with open('wtf.txt', 'a') as f:
-        f.write("http://nti.org")
-        f.write(link.get('href'))
-        f.write("\n")'''
-        
             
 
